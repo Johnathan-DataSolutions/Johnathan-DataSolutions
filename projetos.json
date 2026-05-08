@@ -1,0 +1,26 @@
+[
+	{
+		"titulo": "Previsão de Churn e Retenção",
+		"icone": "📉",
+		"desafio": "Empresa de varejo perdendo clientes sem entender o motivo.",
+		"solucao": "Construí um modelo preditivo em Python + SQL que identificou o padrão de cancelamento, ajudando a recuperar 15% da receita.",
+		"linkGithub": "https://github.com/Johnathan-DataSolutions/nome-do-repo-1",
+		"linkDashboard": ""
+	},
+	{
+		"titulo": "Pipeline de Dados para E-commerce",
+		"icone": "⚙️",
+		"desafio": "Dados de vendas espalhados em dezenas de planilhas lentas.",
+		"solucao": "Criei um pipeline automatizado que extrai dados do ERP, trata via Python e alimenta um Dashboard em tempo real para os diretores.",
+		"linkGithub": "https://github.com/Johnathan-DataSolutions/nome-do-repo-2",
+		"linkDashboard": "https://link-do-seu-dashboard.com"
+	},
+	{
+		"titulo": "Análise de Sentimento do Twitter",
+		"icone": "🧠",
+		"desafio": "Marca precisava entender a opinião pública durante um lançamento.",
+		"solucao": "Script de Web Scraping + NLP que classificou 10 mil tweets diários como positivos ou negativos, gerando insights para o Marketing.",
+		"linkGithub": "https://github.com/Johnathan-DataSolutions/nome-do-repo-3",
+		"linkDashboard": ""
+	}
+]
