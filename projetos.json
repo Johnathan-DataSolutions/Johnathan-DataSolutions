@@ -1,26 +1,31 @@
-[
-	{
-		"titulo": "Previsão de Churn e Retenção",
-		"icone": "📉",
-		"desafio": "Empresa de varejo perdendo clientes sem entender o motivo.",
-		"solucao": "Construí um modelo preditivo em Python + SQL que identificou o padrão de cancelamento, ajudando a recuperar 15% da receita.",
-		"linkGithub": "https://github.com/Johnathan-DataSolutions/nome-do-repo-1",
-		"linkDashboard": ""
-	},
-	{
-		"titulo": "Pipeline de Dados para E-commerce",
-		"icone": "⚙️",
-		"desafio": "Dados de vendas espalhados em dezenas de planilhas lentas.",
-		"solucao": "Criei um pipeline automatizado que extrai dados do ERP, trata via Python e alimenta um Dashboard em tempo real para os diretores.",
-		"linkGithub": "https://github.com/Johnathan-DataSolutions/nome-do-repo-2",
-		"linkDashboard": "https://link-do-seu-dashboard.com"
-	},
-	{
-		"titulo": "Análise de Sentimento do Twitter",
-		"icone": "🧠",
-		"desafio": "Marca precisava entender a opinião pública durante um lançamento.",
-		"solucao": "Script de Web Scraping + NLP que classificou 10 mil tweets diários como positivos ou negativos, gerando insights para o Marketing.",
-		"linkGithub": "https://github.com/Johnathan-DataSolutions/nome-do-repo-3",
-		"linkDashboard": ""
-	}
-]
+[{
+        "titulo":"Gerenciamento de Obra",
+        "icone":"🏗️",
+        "desafio":"Falta de visibilidade em tempo real sobre o avanço físico versus o avanço financeiro dos empreendimentos.",
+        "solucao":"Criei um pipeline de dados (ETL) que consolida as informações do ERP e alimenta um painel gerencial automático para os engenheiros."
+},{
+        "titulo":"Precificação de Apartamentos",
+        "icone":"🏢",
+        "desafio":"Dificuldade comercial em simular cenários de vendas, reajustes de INCC e prever a margem de lucro real das unidades.",
+        "solucao":"Desenvolvi um modelo automatizado e dinâmico que projeta a viabilidade financeira e gera tabelas de preços precisas para os corretores."
+},{
+        "titulo":"EVOLUT PAY - Comissionamento",
+        "icone":"💰",
+        "desafio":"Fechamento demorado das comissões da equipe de vendas, sujeito a erros manuais em planilhas descentralizadas.",
+        "solucao":"Construí uma solução parametrizada que lê os contratos, aplica as regras de negócio e calcula as comissões automaticamente."
+},{
+        "titulo":"Auditoria de Custos Microsoft",
+        "icone":"💻",
+        "desafio":"Alto gasto mensal da empresa com licenças ociosas (Office 365/Azure) de ex-colaboradores ou contas inativas.",
+        "solucao":"Desenvolvi um script em PowerShell que cruza o Active Directory com a fatura, identificando e desativando licenças não utilizadas."
+},{
+        "titulo":"Inventário de TI Automatizado",
+        "icone":"🖥️",
+        "desafio":"Controle de patrimônio (notebooks, celulares) feito de forma manual, sem rastreabilidade de entregas e devoluções.",
+        "solucao":"Implementei um fluxo via Power Automate integrado a formulários, criando um banco de dados confiável com alertas de manutenção."
+},{
+        "titulo":"Planilha Orçamentária",
+        "icone":"📊",
+        "desafio":"Processo lento para compilar os custos previstos e cruzar com os gastos realizados em cada fase da obra.",
+        "solucao":"Estruturei uma ferramenta de controladoria que cruza as notas fiscais com a previsão inicial, alertando sobre estouros de orçamento."
+}]
