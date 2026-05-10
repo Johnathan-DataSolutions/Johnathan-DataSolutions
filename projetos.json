@@ -9,7 +9,7 @@
         "desafio":"Dificuldade comercial em simular cenários de vendas, reajustes de INCC e prever a margem de lucro real das unidades.",
         "solucao":"Desenvolvi um modelo automatizado e dinâmico que projeta a viabilidade financeira e gera tabelas de preços precisas para os corretores."
 },{
-        "titulo":"EVOLUT PAY - Comissionamento",
+        "titulo":"Comissionamento",
         "icone":"💰",
         "desafio":"Fechamento demorado das comissões da equipe de vendas, sujeito a erros manuais em planilhas descentralizadas.",
         "solucao":"Construí uma solução parametrizada que lê os contratos, aplica as regras de negócio e calcula as comissões automaticamente."

@@ -151,7 +151,7 @@
 	</footer>
 
 
-		<!-- Gera os projetos dinamicamente -->
+	<!-- Gera os projetos dinamicamente -->
 	<script>
 		const containerProjetos = document.getElementById('meus-projetos');
 
@@ -169,6 +169,10 @@
 						? `<a href="${projeto.linkDashboard}" target="_blank" class="btn" style="padding: 8px 16px; font-size: 0.9rem; margin-left: 10px;">Ver Dashboard</a>` 
 						: '';
 
+					const botaoGithub = projeto.linkGithub
+						? `<a href="${projeto.linkGithub}" target="_blank" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">Ver no GitHub</a>`
+						: '';
+
 					return `
 						<div class="card">
 							<h3>${projeto.icone} ${projeto.titulo}</h3>
@@ -176,7 +180,7 @@
 							<p><strong>Solução:</strong> ${projeto.solucao}</p>
 							<br>
 							<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-								<a href="${projeto.linkGithub}" target="_blank" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">Ver no GitHub</a>
+								${botaoGithub}
 								${botaoDashboard}
 							</div>
 						</div>
